@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const fs = require("fs");
-const {token } = require('./config.json');
+
 
 bot.on('ready', () =>{
 	console.log('The bot is online!');
